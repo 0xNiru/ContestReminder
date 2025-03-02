@@ -7,10 +7,9 @@ import os
 from dotenv import load_dotenv
 import sqlite3
 
-# Load environment variables
+
 load_dotenv()
 
-# Telegram API credentials
 API_ID = os.getenv('TELEGRAM_API_ID')
 API_HASH = os.getenv('TELEGRAM_API_HASH')
 BOT_TOKEN = os.getenv('BOT_TOKEN')
